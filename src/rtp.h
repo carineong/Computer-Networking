@@ -16,6 +16,11 @@
 #define HEADER_SIZE sizeof(rtp_header_t)
 #define MAX_MSG_SIZE (PACKET_SIZE-HEADER_SIZE)
 
+#define SEND_START 22
+
+#define max(a,b) (a>b?a:b)
+#define min(a,b) (a<b?a:b)
+
 typedef struct __attribute__ ((__packed__)) RTP_header {
     uint8_t type;       // 0: START; 1: END; 2: DATA; 3: ACK
     uint16_t length;    // Length of data; 0 for ACK, START and END packets
