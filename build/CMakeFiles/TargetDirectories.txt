@@ -1,4 +1,0 @@
-/home/carine/Network/Lab2/build/CMakeFiles/rebuild_cache.dir
-/home/carine/Network/Lab2/build/CMakeFiles/edit_cache.dir
-/home/carine/Network/Lab2/build/CMakeFiles/receiver.dir
-/home/carine/Network/Lab2/build/CMakeFiles/sender.dir
